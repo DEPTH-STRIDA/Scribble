@@ -12,7 +12,7 @@ start cmd /k "npm run dev"
 
 :: Инициализация Swagger и запуск бэкенда в одном окне
 cd /d "%backend_dir%"
-swag init && cmd /k "go run main.go"
+cmd /k "go run main.go"
 
 
 
